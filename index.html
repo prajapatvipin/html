@@ -8,22 +8,51 @@
 
         <!-- Load external CSS styles -->
         <link rel="stylesheet" href="styles.css">
+        
+        <style>
+        #blink {
+            font-size: 30px;
+            font-weight: bold;
+            color: #0A10EA ;
+            transition: -15.2s;
+        }
+    </style>
 
     </head>
 
-    <body>
+    <body style="background-color: yellow">
+    	<marquee> HII</marquee>
+    <marquee direction="right" 
+        behavior="alternate" 
+        style="border:pink 2px SOLID">
+        How are You?
+    </marquee>
+
+
+    	<p id="blink"> Welcome To On This Page </p>
+    <script type="text/javascript">
+        var blink = document.getElementById('blink');
+        setInterval(function() {
+            blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+        }, 1500);
+    </script>
 
         <h1 style="text-align:center">Panipat Institute Of Engineering & Technology</h1>
-         <h3 style="text-align:center"> Vipin </h3>
-         <h3  style="text-align:center"> RollNo: 2821975 </h3>
-         <h3  style="text-align:center"> B.Tech CSE (Cyber Security) </h3>
+         <h2 style="text-align:center"> Vipin </h2>
+         <p style="text-align:center;"><img src="VIPIN.jpg" alt="Logo" style="height: 400px", width="320px"></p>
+         <h2  style="text-align:center"> RollNo: 2821975 </h2>
+         <h2  style="text-align:center"> B.Tech CSE (Cyber Security) </h2>
+         <h2  style="text-align:center"> Click on below link to see my learnings: </h2>
      
-       <a href="mywebsite.html" target = "_blank"><h2 style="text-align:center">My Learning</h2></a>
-    
-    
+       <a href="https://varshprajapati.w3spaces.com/mylearn.html"><h2 style="text-align:center">My Learning</h2></a>
+      <h2  style="text-align:center"> Click on below link to see my IWT Lab Works: </h2>
+      <a href="https://varshprajapati.w3spaces.com/mylearn.html"><h2 style="text-align:center">IWT Lab Works</h2></a>&emsp;
+
+   
+
         <!-- Load external JavaScript -->
         <script src="scripts.js"></script>
         
     </body>
 
-</html>
+</htm
